@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './InfoIcons.module.css';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import Icon from '../Icon/Icon';
 
 function InfoIcons() {
@@ -12,7 +13,11 @@ function InfoIcons() {
     {
       icon: faLinkedin,
       url: 'https://www.linkedin.com/in/arth-patel23/',
-    }
+    },
+    {
+      icon: faFilePdf,
+      url: '/resume.pdf',
+    },
   ]
   return (
     <div className={styles.container}>
@@ -30,3 +35,6 @@ function InfoIcons() {
 }
 
 export default InfoIcons
+
+
+
