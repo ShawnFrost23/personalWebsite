@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import LandingPage from './pages/LandingPage/LandingPage';
-import ResumePage from './pages/ResumePage/ResumePage';
 
 const Router = () => (
   <BrowserRouter>
