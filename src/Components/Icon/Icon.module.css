@@ -13,3 +13,10 @@
   transform: scale(1.5);
   cursor: pointer;
 }
+
+@media (max-width: 1000px) {
+  .Icon {
+    font-size: 3rem;
+    margin: 0.5rem;
+  }
+}
