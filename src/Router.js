@@ -8,7 +8,6 @@ const Router = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      <Route exact path="/resume.pdf" component={ResumePage} />
     </Switch>
   </BrowserRouter>
 );
