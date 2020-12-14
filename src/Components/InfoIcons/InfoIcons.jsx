@@ -16,7 +16,7 @@ function InfoIcons() {
     },
     {
       icon: faFilePdf,
-      url: '/resume.pdf',
+      url: 'https://drive.google.com/file/d/1oC0fSsaPjgXyj0ti0P-QxnivseoeADR2/view',
     },
   ]
   return (
