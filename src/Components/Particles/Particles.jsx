@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 
 const calculateNumParticles = () => {
   const numPixels = window.innerHeight * window.innerWidth;
-  return Math.floor(numPixels / 15000);
+  return Math.floor(numPixels / 12000);
 };
 
 const ParticlesCustom = () => (
