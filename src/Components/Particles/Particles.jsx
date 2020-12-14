@@ -44,7 +44,7 @@ const ParticlesCustom = () => (
     }}
     style={{
       position: 'absolute',
-      background: '#FFFFFF'
+      background: '#000000'
     }}
   />
 );
